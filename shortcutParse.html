@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <style>
+        body {
+            font-family: monospace;
+            white-space: pre;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var resText = '{ "total": 14, "items": [ { "kind": "视频网站", "name": "月亮电影网", "url": "https://moon00.com/", "detail": null, "id": 6 }, { "name": "剧集网", "url": "https://www.juji100.com", "id": 3, "kind": "视频网站", "detail": null }, { "id": 10, "url": "http://iptv2020.com/", "name": "IPTV", "detail": null, "kind": "电视直播网站" }, { "id": 11, "url": "http://api.skyrj.com/Home?ReturnUrl=%2f", "name": "Sky电影", "kind": "视频网站", "detail": null }, { "id": 15, "kind": "美剧网站", "url": "https://91mjw.com/", "name": "91美剧网", "detail": null }, { "name": "疯狗电影", "id": 8, "kind": "视频网站", "detail": null, "url": "https://www.fenggoudy.com/" }, { "kind": "美剧网站下载网站", "id": 14, "name": "美剧天堂", "url": "http://www.meijutt.cn/", "detail": null }, { "name": "神马电影网", "kind": "视频网站", "id": 2, "url": "https://www.jlszyy.cc/", "detail": null }, { "name": "碟调网", "kind": "视频网站", "detail": null, "url": "https://www.diediaow.com/", "id": 4 }, { "name": "没事影院", "url": "http://www.17kktv.com/", "kind": "视频网站", "id": 1, "detail": null } ] }';
+        var res = JSON.parse(resText);
+        var result = res;
+        function main() {
+
+            var items = res.items;
+            var indexs = [];
+            var resultItems = {};
+            for (i = 0; i < items.length; i++) {
+                var item = items[i];
+                var key = item.name + "-------" + item.kind;
+                var value = item.url;
+
+                indexs.push(key);
+                resultItems[key] = value;
+
+            }
+            result.indexs = indexs;
+            result.data = resultItems;
+
+        }
+        main();
+        document.body.appendChild(document.createTextNode(JSON.stringify(result, null, 0)));
+    </script>
+</body>
+
+</html>
