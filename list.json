@@ -1,117 +1,75 @@
 {
     "total": 14,
-    "page": 1,
-    "size": 10,
     "items": [
         {
-            "image": null,
-            "isThumb": 1,
             "kind": "视频网站",
-            "thumbs": 6,
             "name": "月亮电影网",
             "url": "https://moon00.com/",
             "detail": null,
-            "id": 6,
-            "status": 1
+            "id": 6
         },
         {
-            "isThumb": 0,
-            "image": null,
             "name": "剧集网",
             "url": "https://www.juji100.com",
             "id": 3,
             "kind": "视频网站",
-            "detail": null,
-            "thumbs": 3,
-            "status": 1
+            "detail": null
         },
         {
-            "isThumb": 0,
             "id": 10,
             "url": "http://iptv2020.com/",
-            "image": null,
             "name": "IPTV",
             "detail": null,
-            "kind": "电视直播网站",
-            "thumbs": 2,
-            "status": 1
+            "kind": "电视直播网站"
         },
         {
             "id": 11,
-            "isThumb": 0,
-            "image": null,
             "url": "http://api.skyrj.com/Home?ReturnUrl=%2f",
             "name": "Sky电影",
             "kind": "视频网站",
-            "detail": null,
-            "thumbs": 2,
-            "status": 1
+            "detail": null
         },
         {
-            "isThumb": 0,
-            "image": null,
             "id": 15,
             "kind": "美剧网站",
             "url": "https://91mjw.com/",
             "name": "91美剧网",
-            "detail": null,
-            "thumbs": 2,
-            "status": 1
+            "detail": null
         },
         {
             "name": "疯狗电影",
-            "isThumb": 0,
-            "image": null,
             "id": 8,
             "kind": "视频网站",
             "detail": null,
-            "url": "https://www.fenggoudy.com/",
-            "status": 1,
-            "thumbs": 1
+            "url": "https://www.fenggoudy.com/"
         },
         {
-            "isThumb": 0,
-            "image": null,
             "kind": "美剧网站下载网站",
             "id": 14,
             "name": "美剧天堂",
             "url": "http://www.meijutt.cn/",
-            "detail": null,
-            "status": 1,
-            "thumbs": 1
+            "detail": null
         },
         {
-            "isThumb": 0,
             "name": "神马电影网",
-            "image": null,
             "kind": "视频网站",
             "id": 2,
-            "thumbs": 5,
             "url": "https://www.jlszyy.cc/",
-            "detail": null,
-            "status": 1
+            "detail": null
         },
         {
-            "isThumb": 0,
-            "image": null,
             "name": "碟调网",
             "kind": "视频网站",
             "detail": null,
-            "thumbs": 2,
             "url": "https://www.diediaow.com/",
-            "status": 1,
             "id": 4
         },
         {
-            "isThumb": 0,
-            "image": null,
             "name": "没事影院",
             "url": "http://www.17kktv.com/",
             "kind": "视频网站",
             "id": 1,
-            "detail": null,
-            "status": 1,
-            "thumbs": 1
+            "detail": null
         }
     ]
 }
