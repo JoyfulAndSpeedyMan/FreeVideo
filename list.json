@@ -63,6 +63,13 @@
             "kind": "视频网站",
             "id": 1,
             "detail": null
+        },
+        {
+            "name": "High energy warning ahead",
+            "url": "https://au3.app/",
+            "kind": "Ms stop",
+            "id": 1,
+            "detail": null
         }
     ]
 }
