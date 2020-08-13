@@ -16,13 +16,6 @@
             "detail": null
         },
         {
-            "id": 10,
-            "url": "http://iptv2020.com/",
-            "name": "IPTV",
-            "detail": null,
-            "kind": "电视直播网站"
-        },
-        {
             "id": 11,
             "url": "http://api.skyrj.com/Home?ReturnUrl=%2f",
             "name": "Sky电影",
