@@ -16,6 +16,13 @@
             "detail": null
         },
         {
+            "name": "人人影视",
+            "url": "http://www.pengwei168.com/",
+            "id": 100,
+            "kind": "视频网站",
+            "detail": null
+        },
+        {
             "id": 11,
             "url": "http://api.skyrj.com/Home?ReturnUrl=%2f",
             "name": "Sky电影",
